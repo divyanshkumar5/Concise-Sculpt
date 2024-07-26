@@ -5,7 +5,7 @@ from ConciseSculpt.logging import logger
 
 
 
-class DatalngestionTrainingPipeIine:
+class DataIngestionTrainingPipeIine:
     def __init__(self):
         pass
 
