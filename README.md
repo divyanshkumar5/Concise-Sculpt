@@ -21,5 +21,4 @@ Contributions are welcome! If you’d like to enhance the summarization model, i
 
 ## License
 This project is licensed under the MIT License. See LICENSE for details.
-
 Feel free to customize this template further to suit your project's specifics! 😊🚀
