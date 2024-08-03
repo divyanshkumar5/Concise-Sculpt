@@ -2,7 +2,9 @@ from ConciseSculpt.constants import *
 from ConciseSculpt.utils.common import read_yaml, create_directories
 from ConciseSculpt.entity import (DataIngestionConfig,
                                   DataValidationConfig,
-                                  DataTransformationConfig)
+                                  DataTransformationConfig,
+                                  ModelTrainerConfig,
+                                  ModelEvaluationConfig)
 
 class ConfigurationManager:
     def __init__(
@@ -63,7 +65,7 @@ class ConfigurationManager:
         return data_transformation_config
     
 
-'''
+
     def get_model_trainer_config(self) -> ModelTrainerConfig:
         config = self.config.model_trainer
         params = self.params.TrainingArguments
@@ -103,4 +105,3 @@ class ConfigurationManager:
         )
 
         return model_evaluation_config
-'''
